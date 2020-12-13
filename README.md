@@ -25,7 +25,6 @@ optional arguments:
   -o OFFSET             Only with calc_z, time someone can be late or leave early, without getting Z. Default: 10
 ```
 
-![help](https://github.com/dominikhoebert/Teams-Attendance-Klassenbuch-Writer/blob/main/readme%20pictures/help.png)
 ![usage](https://github.com/dominikhoebert/Teams-Attendance-Klassenbuch-Writer/blob/main/readme%20pictures/usage.png)
 
 Python 3.9 was used.
