@@ -30,7 +30,7 @@ optional arguments:
 Python 3.9 was used.
 Pandas and openpyxl required
 
-On Windows the .exe can be run from the terminal.
+On Windows pyinstaller can be used to create an .exe, which can be run from the terminal.
 A Powershell alias can be set in the $profile
 Example:  Set-Alias -name attendance -value C:\Path\attendance.exe
 

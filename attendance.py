@@ -64,7 +64,7 @@ def calc_attendance_time(attendance, start_time, end_time):
         attended_times[student] = 0
         ts_string[student] = ""
         for index, row in attendance[attendance.name == student].iterrows():
-            if row["User Action"] == "Joined":
+            if row["User Action"] == "Joined" or row["User Action"] == "Joined before":
                 joined = row.Timestamp
                 if student not in late_time:
                     late_time[student] = (row.Timestamp - start_time).seconds // 60
